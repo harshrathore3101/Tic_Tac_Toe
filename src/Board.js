@@ -4,6 +4,7 @@ import Square from "./Square";
 
 const Board = () => {
   const [squares, setSquares] = useState(Array(9));
+  
   const [xIsNext, setxIsNext] = useState(true);
 
   const Reset = () => {
